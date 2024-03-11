@@ -1,3 +1,10 @@
+TOP LISTA ANIME, które obejrzałem:
+==================================
+
+Jestem bardzo dużym fanem anime. Staram się oglądać na bieżąco nowe wychodzące tytułu.
+Po obejrzeniu jakiejś pozycji zaznaczam sobie to na aniliście dajać przy tym ocenę w 
+skali 1-10. Poniżej znajduje się zescrapowana topka z listy z mojego Anilista:
+
 ## Steins;Gate 0
 **Score:** 10
 
