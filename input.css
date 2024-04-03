@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    ol {
+        list-style: upper-roman inside;
+    }
+    h1 {
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "aside"
+    "footer";
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+}
+
+header {
+  grid-area: header;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  grid-area: main;
+  background-color: #999;
+  color: white;
+  padding: 20px;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #ccc;
+  color: white;
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+

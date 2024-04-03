@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona o wszystkim i niczym</title>
+    <link href="./output.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="grid-container">
+    <header>
+        <h1>
+            Niniejsza strona będzie poświęcona Anime, zapraszam!
+        </h1>
+        Zacznijmy od opisania mojego ulubionego bohatera:
+    </header>
+    <main>
+        <article>
+            <h2 class="text-red-700">
+                Okabe Rintarou
+            </h2>
+            <div class="flex">
+                <div>
+                    <img src="obrazki/rintaro.webp" alt="Okabe Rintarou" width="150" height="150" class="max-w-full">
+                </div>
+            </div>
+            <details>
+                <summary>Krótki opis bohatera</summary>
+                <p>
+                    Hyouunin Kyouma to założyciel słynnej organizacji robiącej różnego rodzaju gadgety.
+                    Znany jest z tego, że chce zaprowadzić chaos w świecie i uciec przed systemem.
+                    Ma również inklinacje egzorcystyczne (i nie tylko!).
+                </p>
+            </details>
+        </article>
+
+        <br><br>
+        <!--TODO: dodać te linki (strona do formularza, poprzednia strona, screen działającego npm, npx)-->
+        <aside>
+            Linki do pozostałych stron:
+            <ul class="list-disc">
+                <li><a href="./form/form.html" class="no-underline hover:underline text-blue-700">Strona z formularzem</a></li>
+                <li><a href="./lab1.md" class="no-underline hover:underline text-blue-700">Strona z pierwszego labu</a></li>
+                <li><a href="./screen.html" class="no-underline hover:underline text-blue-700">Screenshot z użycia npx, npm</a></li>
+            </ul>
+        </aside>
+
+        <br><br>
+        Losowy ping, bo nie miałem pomysłu:
+        <p class="animate-ping absolute inline-flex rounded-full bg-lime-500 opacity-75">TEST</p>
+        <br><br>
+
+        <p class="text-lime-600">Oto lista moich ulubionych Anime:</p>
+        <ol>
+            <li>Steins;Gate 0</li>
+            <li>Fullmetal Alchemist Brotherhood</li>
+            <li>Steins;Gate</li>
+            <li>Chainsaw Man</li>
+            <li>Mirai Nikki</li>
+            <li>Tomodachi Game</li>
+        </ol>
+
+
+        <br><br>
+        Nie jest łatwo brać się za nowe anime. Im <em>więcej</em> się obejrzy, tym <strong>większe</strong> oczekiwania
+        ma się wobec kolejnych tytułów. <br><br>
+
+        Prosty formularz do oceny Anime:
+        <form>
+            <label>
+                Tytuł:
+                <input class="bg-pink-600" type="text" required>
+            </label><br><br>
+
+            <label for="mark">Ocena:</label>
+            <select id="mark" name="mark">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select><br><br>
+
+            <label>
+                Krótki opis słowny:
+                <input class="bg-orange-600" type="text" required>
+            </label><br><br>
+
+            <button class="bg-sky-500" type="submit">Wyślij</button>
+        </form>
+        <br><br>
+
+        <table class="table-auto">
+            <caption>
+            <p class="text-rose-700">Główni bohaterowie Steins;Gate </p>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Postać</th> <th>Wiek</th> <th>Zainteresowania</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Okabe Rintarou</th> <td>18</td> <td>Tworzenie gadgetów</td>
+                </tr>
+                <tr>
+                    <th>Shiina Mayuri</th> <td>16</td> <td>Kurczaki Number One</td>
+                </tr>
+                <tr>
+                    <th>Hashida Itaru</th> <td>19</td> <td>2D waifu i komputery</td>
+                </tr>
+                <tr>
+                    <th>Makise Kurisu</th> <td>18</td> <td>Nauka i eksperymenty</td>
+                </tr>
+                <tr>
+                    <th>Amane Suzuha</th> <td>18</td> <td>Kolarstwo</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+
+        <div class="flex flex-row">
+            <div class="shadow">
+                <img src="obrazki/okarin.webp" alt="Okarin" width="400" height="500">
+            </div>
+            <div class="shadow">
+                <img src="obrazki/mayushii.webp" alt="Mayushii" width="400" height="500">
+            </div>
+            <div class="shadow">
+                <img src="obrazki/kurisu.webp" alt="Kurisu" width="400" height="500">
+            </div>
+        </div>
+
+        <div class="flex flex-col">
+            <div>
+                I can fly--- <br>
+                If that moment, that scene was something special to you then <br>
+                The past isn't just something that'll keep growing distant from you <br>
+                It's not the pain of being hurt, but all of the light of that precious scene <br>
+                That is now going to give birth to zero <br>
+                There is no god. Wonderful new world <br>
+            </div>
+            <div>
+                <img src="obrazki/itaru.webp" alt="Itaru" width="160" height="200">
+            </div>
+            <div>
+                <img src="obrazki/faris.webp" alt="Faris" width="160" height="200">
+            </div>
+        </div>
+
+        <div class="flex flex-row">
+          <div class="flex-auto bg-sky-500">
+            Flexing auto 1/3
+          </div>
+          <div class="flex-auto bg-pink-600">
+            Tekst tutaj będzie dłuższy, aby pokazać, jak zadziała flex-auto.
+          </div>
+          <div class="flex-auto bg-orange-200">
+            TUTURU!
+          </div>
+        </div>
+
+        <div class="flex flex-row">
+          <div class="flex-none w-14 ...">
+            sprawdźmy
+          </div>
+          <div class="flex-none w-32 ...">
+            TO!
+          </div>
+          <div class="flex-none">
+            Przykład jak działa flex-none.
+          </div>
+        </div>
+
+        <br><br>
+        Kliknij twarz swojego ulubionego bohatera!<br>
+        <img src="obrazki/postacie.webp" alt="characters" usemap="#characters" width="800" height="700">
+        <map name="characters">
+            <area shape="circle" coords="685, 125, 40" href="https://anilist.co/character/35252/Rintarou-Okabe">
+            <area shape="circle" coords="264, 133, 40" href="https://anilist.co/character/34470/Kurisu-Makise">
+            <area shape="circle" coords="195, 175, 40" href="https://anilist.co/character/35253/Mayuri-Shiina">
+            <area shape="circle" coords="596, 116, 40" href="https://anilist.co/character/35258/Itaru-Hashida">
+            <area shape="circle" coords="424, 146, 40" href="https://anilist.co/character/35255/Suzuha-Amane">
+            <area shape="circle" coords="359, 183, 40" href="https://anilist.co/character/30919/Luka-Urushibara">
+            <area shape="circle" coords="485, 210, 40" href="https://anilist.co/character/35256/Rumiho-Akiha">
+            <area shape="circle" coords="91, 147, 40" href="https://anilist.co/character/35257/Moeka-Kiryuu">
+        </map>
+
+        <br><br>
+        Strona zrobiona w 50%
+        <progress value="50" max="100"></progress>
+    </main>
+    <footer>
+        Autor - Dominik Mandes
+    </footer>
+</div>
+</body>
+</html>
